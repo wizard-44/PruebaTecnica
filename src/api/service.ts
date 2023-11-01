@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 
 // interfaces
-import { PostPayload } from '../Interface/index';
+import { PostPayload } from '../models/index';
 
 const endPoint = "https://jsonplaceholder.typicode.com"
 
