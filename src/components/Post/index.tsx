@@ -121,10 +121,10 @@ const Post: React.FC = () => {
         </Modal.Body>
         <Modal.Footer>
           <Button disabled={loader} variant="secondary" onClick={handleClose}>
-            Close
+            Cerrar
           </Button>
           <Button data-testId="add-button" className="add-btn" disabled={loader} variant="primary" onClick={onSubmit}>
-            {loader ? <Spinner color="primary" size="sm" /> : "Save"}
+            {loader ? <Spinner color="primary" size="sm" /> : "Guardar"}
           </Button>
         </Modal.Footer>
       </Modal>
