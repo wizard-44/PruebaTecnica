@@ -1,0 +1,146 @@
+.App {
+  /* text-align: center; */
+  width: 50%;
+  margin: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.column-title {
+  color: #fdfdfd; /* Cambia este valor por el color que desees */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  border-radius: 10px;
+  box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+}
+
+/* ---- table css --- */
+
+table {
+  border-radius: 10px !important;
+}
+
+.table th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.table th {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #456990 !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+  padding-left: 40px !important;
+  padding-right: 10px !important;
+}
+
+.pagination-button {
+  background-color: #456990; 
+  color: white; 
+  border: none; 
+  margin-right: 10px; 
+}
+
+.pagination-button:hover {
+  background-color: #365880; 
+}
+
+.pagination-button:disabled {
+  background-color: #789abf;
+  color: #cfd8e3;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+.table td {
+  font-size: 15px;
+  color: gray;
+  line-height: 1.4;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+  padding-left: 40px !important;
+  padding-right: 10px !important;
+}
+
+.sort-icon-large {
+  font-size: 30px; 
+  vertical-align: middle; 
+  color: #cad2c5;
+}
+
+.add-btn {
+  background-color: #456990 !important;
+}
+
+
+.modal-header {
+  background-color: #456990 !important;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.success {
+  background-color: #4BB543 !important;
+}
+
+.danger {
+  background-color: #ed5249 !important;
+}
+
+.notification {
+  background-color: #fff;
+  padding-left: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .App {
+    /* text-align: center; */
+    width: 90%;
+    margin: auto;
+  }
+}
