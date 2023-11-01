@@ -1,27 +1,39 @@
 # React + TypeScript + Vite
+# Prueba Técnica para Aplicación CRUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto involucra la creación de una aplicación web responsive que consume datos de la API pública JSONPlaceholder. La aplicación implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y está construida usando React.js o Angular con Typescript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## API Utilizada
 
-## Expanding the ESLint configuration
+- JSONPlaceholder - Free Fake REST API: [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Requisitos Previos
 
-- Configure the top-level `parserOptions` property like this:
+Asegúrate de tener instalado Node.js y Yarn en tu sistema antes de comenzar.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Configuración Inicial
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Clona el repositorio y navega a la carpeta del proyecto:
+
+```bash
+git clone <[URL_DEL_REPOSITORIO](https://github.com/wizard-44/PruebaTecnica.git)https://github.com/wizard-44/PruebaTecnica.git>
+cd <PruebaTecnica>
+## Instalación de Dependencias
+
+Para instalar todas las dependencias necesarias, ejecuta los siguientes comandos en la terminal:
+
+```bash
+yarn install
+yarn add react-bootstrap
+yarn add axios
+yarn add bootstrap
+
+Esto instalará todas las librerías necesarias para que el proyecto funcione correctamente, incluyendo react-bootstrap para los componentes de Bootstrap en React, axios para realizar peticiones HTTP, y bootstrap para el diseño responsive.
+
+## Ejecución de la Aplicación
+
+Para correr la aplicación en modo de desarrollo, utiliza el siguiente comando:
+```bash
+yarn run dev
